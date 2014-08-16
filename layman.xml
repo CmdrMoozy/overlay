@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<layman>
+	<overlay type="git" src="https://cmdrmoozy@github.com/cmdrmoozy/overlay.git"
+		contact="" status="unofficial" name="cmdrmoozy">
+		
+		<link>https://github.com/cmdrmoozy/overlay</link>
+		<description>CmdrMoozy's personal overlay</description>
+
+	</overlay>
+</layman>

@@ -1,0 +1,12 @@
+<repositories xmlns="" version="1.0">
+	<repo quality="experimental" status="official">
+		<name>cmdrmoozy</name>
+		<description>CmdrMoozy's personal overlay</description>
+		<homepage>https://cmdrmoozy.github.com/overlay/</homepage>
+		<owner type="project">
+			<email>axel.rasmussen1@gmail.com</email>
+			<name>Axel Rasmussen</name>
+		</owner>
+		<source type="git">git://github.com/cmdrmoozy/overlay.git</source>
+	</repo>
+</repositories>
