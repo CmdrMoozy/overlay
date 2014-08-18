@@ -1,0 +1,12 @@
+x11-base/xorg-x11
+app-editors/mousepad
+=x11-misc/sddm-9999
+x11-terms/xfce4-terminal
+x11-themes/xfwm4-themes
+xfce-base/xfce4-meta
+xfce-extra/thunar-archive-plugin
+xfce-extra/thunar-volman
+xfce-extra/tumbler
+xfce-extra/xfce4-mixer
+xfce-extra/xfce4-mount-plugin
+xfce-extra/xfce4-sensors-plugin

@@ -1,3 +1,7 @@
->=dev-python/django-1.6.5[postgres,sqlite,python_targets_python3_3]
-dev-python/markdown
+@base-meta
+
+>=dev-python/django-1.6.5[postgres,python_targets_python3_3]
 >=www-servers/uwsgi-2.0.6
+dev-python/django-pipeline
+=dev-python/python-hoedown-9999
+www-servers/nginx

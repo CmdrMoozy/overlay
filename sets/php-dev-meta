@@ -1,0 +1,7 @@
+@php-meta
+@dev-meta
+
+dev-lang/php[mysqli]
+dev-php/phpmd
+dev-php/phpunit
+dev-db/mariadb

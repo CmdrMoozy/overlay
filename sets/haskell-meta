@@ -1,3 +1,5 @@
+@dev-meta
+
 >=dev-haskell/haskell-platform-2013.2.0.0-r2
 dev-haskell/cabal-install
 dev-haskell/hlint

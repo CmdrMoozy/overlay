@@ -1,0 +1,9 @@
+@base-meta
+
+dev-util/cloc
+dev-util/valgrind
+sys-apps/usermode-utilities
+sys-fs/dmg2img
+dev-java/icedtea-bin:6
+dev-java/oracle-jdk-bin:1.7
+dev-java/oracle-jdk-bin:1.8
