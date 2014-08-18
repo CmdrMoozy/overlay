@@ -1,0 +1,3 @@
+>=dev-python/django-1.6.5[postgres,sqlite,python_targets_python3_3]
+dev-python/markdown
+>=www-servers/uwsgi-2.0.6
