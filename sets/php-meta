@@ -1,5 +1,6 @@
 @base-meta
 
+dev-db/postgresql-server
 dev-lang/php[bcmath,bzip2,calendar,cli,ctype,curl,fileinfo,fpm,gd,gmp,hash,iconv,inifile,intl,json,mhash,pcntl,pdo,phar,posix,postgres,simplexml,sockets,spell,ssl,threads,truetype,unicode,xml,xmlreader,xmlwriter,zip,zlib]
 dev-php/pecl-imagick
 dev-php/php-scrypt
