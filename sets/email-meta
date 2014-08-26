@@ -1,0 +1,9 @@
+@base-meta
+@php-meta
+
+app-antivirus/clamav[clamdtop,milter]
+mail-filter/spamassassin[postgres,ssl]
+mail-mta/postfix[dovecot-sasl,mbox,memcached,postgres,sasl]
+net-mail/dovecot[caps,lucene,lzma,maildir,managesieve,mbox,pam,postgres,sieve,ssl]
+net-misc/memcached[sasl]
+dev-libs/cyrus-sasl[pam,postgres,ssl,urandom]
