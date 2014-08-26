@@ -6,3 +6,4 @@ dev-python/django-pipeline
 =dev-python/python-hoedown-9999
 www-servers/nginx
 >=dev-python/beautifulsoup-4.0.0[python_targets_python3_3]
+>=dev-python/whoosh-2.5.7[python_targets_python3_3]
