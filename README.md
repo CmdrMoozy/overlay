@@ -8,5 +8,7 @@ Usage
 
 Add this overlay to your system using `app-portage/layman`:
 
-    layman -o https://raw.githubusercontent.com/cmdrmoozy/overlay/master/repositories.xml -f -a cmdrmoozy
+    wget -q -O /etc/layman/overlays/cmdrmoozy.xml https://raw.githubusercontent.com/cmdrmoozy/overlay/master/repositories.xml
+    layman -S
+    layman -a cmdrmoozy
 
