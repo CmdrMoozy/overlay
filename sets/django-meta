@@ -1,7 +1,7 @@
 @base-meta
 
 >=dev-python/django-1.6.5[postgres,python_targets_python3_3]
->=www-servers/uwsgi-2.0.6[python,python_gevent]
+>=www-servers/uwsgi-2.0.6[json,python]
 dev-python/django-pipeline
 =dev-python/python-hoedown-9999
 www-servers/nginx
