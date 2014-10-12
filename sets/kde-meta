@@ -7,5 +7,4 @@ kde-base/okteta
 kde-misc/kde-gtk-config
 kde-misc/kscreen
 media-sound/amarok
-x11-misc/sddm
 x11-themes/oxygen-gtk
