@@ -9,7 +9,7 @@ SLOT="0"
 LICENSE="GPL-3"
 IUSE=""
 
-RDEPEND=">=dev-util/cmake-2.8.9
+RDEPEND=">=dev-util/cmake-3.0.2
 	>=dev-libs/icu-50.0
 	dev-qt/qtcore:5
 	dev-qt/qtgui:5
