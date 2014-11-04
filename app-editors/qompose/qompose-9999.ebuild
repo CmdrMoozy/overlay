@@ -28,6 +28,6 @@ src_install() {
 	
 	exeinto /usr/bin
 	
-	doexe build/Qompose
+	doexe build/src/Qompose/Qompose
 	
 }
