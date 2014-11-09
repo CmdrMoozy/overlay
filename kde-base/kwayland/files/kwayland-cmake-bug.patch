@@ -1,0 +1,22 @@
+From d25de7d37ea23a2efb960cb2f2504b89cbf230ec Mon Sep 17 00:00:00 2001
+From: root <root@celine.arborea.local>
+Date: Sat, 8 Nov 2014 21:45:46 -0700
+Subject: [PATCH] Fix silly CMakeFiles bug.
+
+---
+ tests/CMakeLists.txt | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/tests/CMakeLists.txt b/tests/CMakeLists.txt
+index 2d661c4..041243c 100644
+--- a/tests/CMakeLists.txt
++++ b/tests/CMakeLists.txt
+@@ -3,4 +3,5 @@ set(testServer_SRCS
+     )
+ add_executable(testServer ${testServer_SRCS})
+ target_link_libraries(testServer KF5::WaylandServer)
++include(ECMMarkAsTest)
+ ecm_mark_as_test(testServer)
+-- 
+2.0.4
+
