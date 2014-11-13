@@ -1,0 +1,54 @@
+diff --git a/src/widgets/widgets/qplaintextedit.cpp b/src/widgets/widgets/qplaintextedit.cpp
+index b6a21f1..9f8c6e2 100644
+--- a/src/widgets/widgets/qplaintextedit.cpp
++++ b/src/widgets/widgets/qplaintextedit.cpp
+@@ -2425,6 +2425,27 @@ void QPlainTextEdit::setTabStopWidth(int width)
+ }
+ 
+ /*!
++    \property QPlainTextEdit::tabStopWidthF
++    \brief the tab stop width in pixels
++*/
++
++qreal QPlainTextEdit::tabStopWidthF() const
++{
++    Q_D(const QPlainTextEdit);
++    return d->control->document()->defaultTextOption().tabStop();
++}
++
++void QPlainTextEdit::setTabStopWidthF(qreal width)
++{
++    if (width < 0.0)
++        return;
++    Q_D(QPlainTextEdit);
++    QTextOption opt = d->control->document()->defaultTextOption();
++    opt.setTabStop(width);
++    d->control->document()->setDefaultTextOption(opt);
++}
++
++/*!
+     \property QPlainTextEdit::cursorWidth
+ 
+     This property specifies the width of the cursor in pixels. The default value is 1.
+diff --git a/src/widgets/widgets/qplaintextedit.h b/src/widgets/widgets/qplaintextedit.h
+index 9f67aaa..b7f51de 100644
+--- a/src/widgets/widgets/qplaintextedit.h
++++ b/src/widgets/widgets/qplaintextedit.h
+@@ -69,6 +69,7 @@ class Q_WIDGETS_EXPORT QPlainTextEdit : public QAbstractScrollArea
+     Q_PROPERTY(QString plainText READ toPlainText WRITE setPlainText NOTIFY textChanged USER true)
+     Q_PROPERTY(bool overwriteMode READ overwriteMode WRITE setOverwriteMode)
+     Q_PROPERTY(int tabStopWidth READ tabStopWidth WRITE setTabStopWidth)
++    Q_PROPERTY(qreal tabStopWidthF READ tabStopWidthF WRITE setTabStopWidthF)
+     Q_PROPERTY(int cursorWidth READ cursorWidth WRITE setCursorWidth)
+     Q_PROPERTY(Qt::TextInteractionFlags textInteractionFlags READ textInteractionFlags WRITE setTextInteractionFlags)
+     Q_PROPERTY(int blockCount READ blockCount)
+@@ -163,6 +164,9 @@ public:
+     int tabStopWidth() const;
+     void setTabStopWidth(int width);
+ 
++    qreal tabStopWidthF() const;
++    void setTabStopWidthF(qreal width);
++
+     int cursorWidth() const;
+     void setCursorWidth(int width);
+ 
