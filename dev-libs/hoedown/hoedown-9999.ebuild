@@ -30,7 +30,7 @@ src_install() {
 
 	# Install the shared library.
 
-	dolib.so libhoedown.so.1 libhoedown.so
+	dolib.so libhoedown.so.3 libhoedown.so
 
 	# Install all header files into /usr/include/hoedown.
 
