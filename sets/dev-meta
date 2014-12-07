@@ -1,6 +1,7 @@
 @base-meta
 
 dev-util/cloc
+dev-util/strace
 dev-util/valgrind
 sys-apps/usermode-utilities
 sys-fs/dmg2img
