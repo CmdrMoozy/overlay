@@ -1,8 +1,6 @@
 @qt5-meta
 @dev-meta
 
-app-doc/doxygen
-app-cdr/k3b
 app-doc/doxygen[qt4]
 app-editors/qompose
 app-editors/scite
