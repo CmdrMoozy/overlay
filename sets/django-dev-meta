@@ -1,5 +1,5 @@
 @django-meta
 @dev-meta
 
->=dev-python/django-1.6.5[mysql,postgres,sqlite,python_targets_python3_4]
+>=dev-python/django-1.6.5[postgres,sqlite,python_targets_python3_4]
 dev-db/mariadb
