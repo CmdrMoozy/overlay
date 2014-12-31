@@ -2,5 +2,5 @@
 @dev-meta
 
 >=dev-python/django-1.7[sqlite,python_targets_python3_4]
->=dev-python/psycopg-2.0.0
+>=dev-python/psycopg-2.0.0[python_targets_python3_4]
 dev-db/mariadb
