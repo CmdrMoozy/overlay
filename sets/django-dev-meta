@@ -1,5 +1,6 @@
 @django-meta
 @dev-meta
 
->=dev-python/django-1.6.5[postgres,sqlite,python_targets_python3_4]
+>=dev-python/django-1.7.0[sqlite,python_targets_python3_4]
+>=dev-python/psycopg-2.0.0
 dev-db/mariadb
