@@ -13,7 +13,7 @@ media-gfx/gimp
 media-gfx/icoutils
 media-gfx/inkscape
 media-gfx/scrot
-net-analyzer/wireshark
+net-analyzer/wireshark[gtk3,-qt4,-qt5]
 net-ftp/filezilla
 net-irc/hexchat
 sys-devel/gdb
