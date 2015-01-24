@@ -1,8 +1,9 @@
 @kde-frameworks-5.6
-@kde-plasma-5.1
+@kde-plasma-5.2
 
 =x11-misc/sddm-9999
 
+=kde-apps/okular-9999
 =kde-apps/konsole-9999
 =kde-apps/kate-9999
 =x11-themes/oxygen-gtk-9999
