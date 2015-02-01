@@ -1,7 +1,7 @@
 @kde-frameworks-5.6
 @kde-plasma-5.2
 
-=x11-misc/sddm-9999
+x11-misc/sddm
 
 =kde-apps/okular-5.9999
 =kde-apps/konsole-9999
