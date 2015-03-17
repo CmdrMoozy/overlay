@@ -1,5 +1,5 @@
 EAPI=5
-inherit git-2
+inherit git-2 cmake-utils flag-o-matic
 
 DESCRIPTION="A simple programmer's text editor."
 EGIT_REPO_URI="https://github.com/CmdrMoozy/qompose.git"
@@ -9,8 +9,10 @@ SLOT="0"
 LICENSE="GPL-3"
 IUSE=""
 
-RDEPEND=">=dev-util/cmake-3.0.2
-	>=dev-libs/icu-50.0
+CMAKE_MIN_VERSION=3.0.2
+
+RDEPEND=">=dev-libs/icu-50.0
+    >=dev-libs/boost-1.55.0
 	dev-qt/qtcore:5
 	dev-qt/qtgui:5
 	dev-qt/qtwidgets:5
@@ -18,16 +20,13 @@ RDEPEND=">=dev-util/cmake-3.0.2
 	dev-qt/qtprintsupport:5"
 DEPEND="${RDEPEND}"
 
-src_compile() {
-	
-	${S}/release.sh || die
-	
+src_configure() {
+	append-cxxflags -std=c++11
+	cmake-utils_src_configure
 }
 
 src_install() {
-	
 	exeinto /usr/bin
 	
-	doexe build/src/Qompose/Qompose
-	
+	doexe ${BUILD_DIR}/src/Qompose/Qompose
 }
