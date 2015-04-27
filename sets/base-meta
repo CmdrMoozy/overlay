@@ -6,7 +6,7 @@ app-editors/vim
 app-misc/screen
 app-portage/genlop
 app-portage/gentoolkit
-app-portage/layman[cvs,git,mercurial,subversion]
+>=app-portage/layman-2.3.0[cvs,git,mercurial,subversion,sync-plugin-portage]
 app-text/wgetpaste
 app-vim/vim-spell-en
 dev-vcs/git[subversion]
