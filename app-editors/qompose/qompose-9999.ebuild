@@ -1,5 +1,8 @@
 EAPI=5
-inherit git-2 cmake-utils flag-o-matic
+inherit cmake-utils flag-o-matic
+
+EGIT_HAS_SUBMODULES=true
+inherit git-2
 
 DESCRIPTION="A simple programmer's text editor."
 EGIT_REPO_URI="https://github.com/CmdrMoozy/qompose.git"
@@ -27,6 +30,6 @@ src_configure() {
 
 src_install() {
 	exeinto /usr/bin
-	
+
 	doexe ${BUILD_DIR}/src/Qompose/Qompose
 }
