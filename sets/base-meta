@@ -11,7 +11,7 @@ app-text/wgetpaste
 app-vim/vim-spell-en
 dev-vcs/git[subversion]
 net-analyzer/arping
-net-analyzer/netcat[ipv6]
+net-analyzer/netcat6
 net-analyzer/nmap[ipv6,ncat,ndiff,nping]
 net-analyzer/tcpdump
 net-analyzer/traceroute
