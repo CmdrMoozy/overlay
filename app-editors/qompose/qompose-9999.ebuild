@@ -24,7 +24,7 @@ RDEPEND=">=dev-libs/icu-50.0
 DEPEND="${RDEPEND}"
 
 src_configure() {
-	append-cxxflags -std=c++11
+	append-cxxflags -std=c++1y
 	cmake-utils_src_configure
 }
 
