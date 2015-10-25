@@ -14,8 +14,9 @@ IUSE=""
 
 CMAKE_MIN_VERSION=3.0.2
 
-RDEPEND=">=dev-libs/icu-50.0
-    >=dev-libs/boost-1.55.0
+RDEPEND="dev-libs/leveldb
+	app-text/hunspell
+	dev-libs/libgit2
 	dev-qt/qtcore:5
 	dev-qt/qtgui:5
 	dev-qt/qtwidgets:5
