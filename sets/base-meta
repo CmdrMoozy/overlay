@@ -4,6 +4,7 @@ app-arch/unrar
 app-editors/nano
 app-editors/vim
 app-misc/screen
+app-misc/tmux
 app-portage/genlop
 app-portage/gentoolkit
 >=app-portage/layman-2.3.0[cvs,git,mercurial,subversion,sync-plugin-portage]
