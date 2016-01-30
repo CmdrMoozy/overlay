@@ -26,7 +26,7 @@ media-fonts/ja-ipafonts
 media-fonts/takao-fonts
 media-fonts/wqy-microhei
 media-fonts/wqy-zenhei
-www-client/chromium
+www-client/google-chrome
 www-client/firefox
 www-client/opera
 www-plugins/adobe-flash
