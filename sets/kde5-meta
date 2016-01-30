@@ -1,5 +1,5 @@
-@kde-frameworks-5.15
-=kde-plasma/plasma-meta-5.4.2
+@kde-frameworks-5.18
+=kde-plasma/plasma-meta-5.5.4
 x11-misc/sddm
 
 =kde-apps/okular-5.9999
