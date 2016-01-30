@@ -30,7 +30,6 @@ www-client/google-chrome
 www-client/firefox
 www-client/opera
 www-plugins/adobe-flash
-www-plugins/chrome-binary-plugins
 dev-python/PyQt4
 dev-python/pygame
 mail-client/claws-mail
