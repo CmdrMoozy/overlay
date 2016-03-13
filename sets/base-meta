@@ -32,7 +32,7 @@ sys-apps/usbutils
 sys-fs/dosfstools
 sys-fs/eudev
 sys-fs/ntfs3g[external-fuse,ntfsprogs]
-sys-fs/sshfs-fuse
+sys-fs/sshfs
 sys-process/cronie
 sys-process/htop
 sys-process/lsof
