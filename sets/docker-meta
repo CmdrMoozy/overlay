@@ -1,2 +1,2 @@
 >=app-emulation/lxc-1.1.2-r2[cgmanager]
-app-emulation/docker[btrfs,contrib,device-mapper,lxc,overlay,vim-syntax]
+app-emulation/docker[btrfs,device-mapper,overlay]
