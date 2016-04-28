@@ -1,3 +1,22 @@
-@qt5-addons
 @qt5-essentials
 @qt5-tools
+
+# Mostly the same as @qt5-addons, but excluding some packages.
+dev-qt/qtbluetooth:5
+dev-qt/qtconcurrent:5
+dev-qt/qtdbus:5
+dev-qt/qtgraphicaleffects:5
+dev-qt/qtimageformats:5
+dev-qt/qtopengl:5
+dev-qt/qtpositioning:5
+dev-qt/qtprintsupport:5
+dev-qt/qtscript:5
+dev-qt/qtsensors:5
+dev-qt/qtserialport:5
+dev-qt/qtsvg:5
+dev-qt/qtwebchannel:5
+dev-qt/qtwebkit:5
+dev-qt/qtwebsockets:5
+dev-qt/qtx11extras:5
+dev-qt/qtxml:5
+dev-qt/qtxmlpatterns:5
