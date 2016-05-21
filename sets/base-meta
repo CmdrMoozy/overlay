@@ -19,6 +19,7 @@ net-analyzer/traceroute
 net-firewall/iptables[ipv6]
 net-irc/irssi
 net-misc/dhcpcd
+net-misc/keychain
 net-misc/tlsdate
 sys-apps/ack
 sys-apps/dmidecode
