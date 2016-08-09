@@ -9,3 +9,4 @@ www-servers/nginx
 >=dev-python/beautifulsoup-4.0.0[python_targets_python3_4]
 >=dev-python/whoosh-2.5.7[python_targets_python3_4]
 dev-db/postgresql[server]
+>=dev-python/pygit2-0.24.1
