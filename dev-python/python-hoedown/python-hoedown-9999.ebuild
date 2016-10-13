@@ -4,7 +4,7 @@
 
 EAPI=5
 
-PYTHON_COMPAT=(python{3_3,3_4})
+PYTHON_COMPAT=(python{3_4,3_5})
 inherit git-2 distutils-r1
 
 DESCRIPTION="The Python binding for hoedown, a markdown parsing library"
