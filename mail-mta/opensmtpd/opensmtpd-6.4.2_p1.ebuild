@@ -17,7 +17,7 @@ IUSE="pam +mta"
 DEPEND="dev-libs/libressl
 		elibc_musl? ( sys-libs/fts-standalone )
 		sys-libs/zlib
-		pam? ( virtual/pam )
+		pam? ( sys-libs/pam )
 		sys-libs/db:=
 		dev-libs/libevent
 		app-misc/ca-certificates
